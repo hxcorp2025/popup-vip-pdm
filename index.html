@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pop-Up VIP — Pix do Milhão</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#111;color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px}
+h1{font-size:28px;margin-bottom:8px;text-align:center}
+h1 span{color:#FFC107}
+p{color:#888;margin-bottom:40px;text-align:center}
+.cards{display:flex;gap:24px;flex-wrap:wrap;justify-content:center}
+.card{background:#1a1a2e;border:2px solid #333;border-radius:16px;padding:32px;width:300px;text-align:center;transition:.3s;cursor:pointer;text-decoration:none;color:#fff}
+.card:hover{border-color:#FFC107;transform:translateY(-4px);box-shadow:0 12px 40px rgba(255,193,7,.15)}
+.card h2{font-size:20px;margin-bottom:8px}
+.card .tag{display:inline-block;background:#2E7D32;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;margin-bottom:16px}
+.card p{color:#aaa;font-size:14px;line-height:1.6;margin-bottom:0}
+</style>
+</head>
+<body>
+<h1>PIX DO <span>MILHÃO</span></h1>
+<p>Pop-Up VIP — Escolha uma versão</p>
+<div class="cards">
+  <a class="card" href="v1/">
+    <h2>Versão 1</h2>
+    <span class="tag">Tabela de Prêmios</span>
+    <p>Layout com tabela detalhada de prêmios e números. Dois cards de preço separados.</p>
+  </a>
+  <a class="card" href="v2/">
+    <h2>Versão 2</h2>
+    <span class="tag">Seletor de Quantidade</span>
+    <p>Layout com seletor interativo de quantidade (+20, +10, +30). Preço dinâmico.</p>
+  </a>
+</div>
+</body>
+</html>
